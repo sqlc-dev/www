@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.8.0 released"
 date:   2021-05-02 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 Sssssss. Experimental Python support has landed.
