@@ -6,6 +6,8 @@
 
   # https://devenv.sh/packages/
   packages = [
+    pkgs.stdenv.cc.cc.lib
+    pkgs.ruby
     pkgs.bundler
     pkgs.git
   ];
