@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.12.0 released"
 date:   2022-02-05 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 ## Version [1.12.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.12.0)

@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.18.0 released"
 date:   2023-04-27 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 ## Version [1.18.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.18.0)

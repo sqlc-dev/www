@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.7.0 released"
 date:   2021-02-28 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 sqlc has come to Windows! It's currently MySQL-only, but I hope to land

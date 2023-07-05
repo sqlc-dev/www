@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.4.0 released"
 date:   2020-06-17 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 This release includes a complete refactor of the compiler internals. The
