@@ -1,4 +1,0 @@
-rule tailwind
-  command = npx tailwindcss build $in -o $out
-
-build css/style.css: tailwind assets/style.css | tailwind.config.js
