@@ -21,7 +21,7 @@ queries against lint expressions to catch common mistakes in otherwise syntactic
 SQL.
 
 The introduction of `sqlc vet` also marks the first time that sqlc will use a
-[running database server connection][8] to enhance its functionality. We'll expand on this in
+[database server connection][8] to enhance its functionality. We'll expand on this in
 future releases, but for now database connections power the built-in `sqlc/db-prepare`
 vet rule.
 
@@ -63,4 +63,4 @@ Kyle and Andrew
 [6]: https://github.com/sqlc-dev
 [7]: https://github.com/kyleconroy/sqlc
 [8]: https://docs.sqlc.dev/en/v1.19.0/reference/config.html#database
-[9]: https://docs.sqlc.dev/en/stable/howto/vet
+[9]: https://docs.sqlc.dev/en/stable/howto/vet.html
