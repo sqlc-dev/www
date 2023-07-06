@@ -63,4 +63,4 @@ Kyle and Andrew
 [6]: https://github.com/sqlc-dev
 [7]: https://github.com/kyleconroy/sqlc
 [8]: https://docs.sqlc.dev/en/v1.19.0/reference/config.html#database
-[9]: https://docs.sqlc.dev/en/stable/reference/cli.html#vet
+[9]: https://docs.sqlc.dev/en/stable/howto/vet
