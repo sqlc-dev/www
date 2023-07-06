@@ -8,7 +8,6 @@ tags: [release notes]
 
 ## Version [1.18.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.18.0)
 
-
 ### Remote code generation
 
 _Developed by [@andrewmbenton](https://github.com/andrewmbenton)_
@@ -173,5 +172,5 @@ generated method will use a argument struct.
 
 ### Changelog
 
-Full list of changes [here](https://docs.sqlc.dev/en/stable/reference/changelog.html#changes).
+Full list of changes [here](https://docs.sqlc.dev/en/v1.18.0/reference/changelog.html#changes).
 
