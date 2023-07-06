@@ -78,7 +78,7 @@ sql:
         package: "authors"
         out: "db"
     database:
-      url: "postgresql://postgres:password@localhost:5432/postgres"
+      uri: "postgresql://postgres:password@localhost:5432/postgres"
     rules:
       - sqlc/db-prepare
 ```
