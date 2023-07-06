@@ -4,19 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: "Compile SQL to type-safe code" }} | sqlc.dev</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link rel="canonical" href="https://sqlc.dev{{ page.url | default: '/'}}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | default: '/'}}" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:url" content="https://sqlc.dev{{ page.url | default: '/'}}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | default: '/'}}" />
+    <meta property="og:image" content="{{ site.url }}/logo.png" />
     <meta property="og:title" content="{{ page.title | default: 'Compile SQL to type-safe code' }}" />
     <meta property="og:site_name" content="sqlc.dev" />
-    <meta property="og:description" content="{{ page.excerpt | default: 'SQL to type-safe code' }}" />
-    <meta property="description" content="{{ page.excerpt | default: 'SQL to type-safe code' }}" />
+    <meta property="og:description" content="{{ page.excerpt | default: 'Compile SQL to type-safe code' }}" />
+    <meta property="description" content="{{ page.excerpt | default: 'Compile SQL to type-safe code' }}" />
     <script type="application/ld+json">
-      {"@type":"WebSite","url":"https://sqlc.dev/","headline":"sqlc.dev","name":"sqlc.dev","description":"Compile SQL to type-safe code","@context":"https://schema.org"}
+      {"@type":"WebSite","url":"{{ site.url }}","headline":"sqlc.dev","name":"sqlc.dev","description":"Compile SQL to type-safe code","@context":"https://schema.org"}
     </script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/banner.css">
-    <link type="application/atom+xml" rel="alternate" href="https://sqlc.dev/feed.xml" title="sqlc.dev" />
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="sqlc.dev" />
     <script defer data-domain="sqlc.dev" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body>
