@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>sqlc.dev | Compile SQL to type-safe code</title>
+    <title>{{ page.title | default: "Compile SQL to type-safe code" }} | sqlc.dev</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <meta property="og:title" content="sqlc.dev" />
     <meta property="og:locale" content="en_US" />
@@ -15,10 +15,14 @@
       {"@type":"WebSite","url":"https://sqlc.dev/","headline":"sqlc.dev","name":"sqlc.dev","description":"Compile SQL to type-safe code","@context":"https://schema.org"}
     </script>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/banner.css">
     <link type="application/atom+xml" rel="alternate" href="https://sqlc.dev/feed.xml" title="sqlc.dev" />
     <script defer data-domain="sqlc.dev" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body>
+    <header id="banner" class="bg-indigo-600 text-center text-white font-medium text-lg">
+      <div>✨ We're now working on sqlc full-time. Read more <a href="/posts/2023/07/06/working-on-sqlc-full-time">here</a>. ✨</div>
+    </header>
     <div class="relative bg-white">
       <div class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
         <div class="lg:w-0 lg:flex-1">

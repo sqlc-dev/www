@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.5.0 released"
 date:   2020-08-05 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 The new MySQL engine, code-named Dolphin, has finally landed. To try it out,

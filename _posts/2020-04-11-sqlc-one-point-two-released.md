@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.2.0 released"
 date:   2020-04-11 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 This release brings with it an official Docker image for you whale fans out

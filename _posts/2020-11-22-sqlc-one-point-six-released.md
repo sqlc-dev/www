@@ -3,6 +3,7 @@ layout: post
 title:  "sqlc v1.6.0 released"
 date:   2020-11-22 13:10:42 -0700
 categories: posts
+tags: [release notes]
 ---
 
 The new MySQL engine, code-named Dolphin, is now default. The old engine has

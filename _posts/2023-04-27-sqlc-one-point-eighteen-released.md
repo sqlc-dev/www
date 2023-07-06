@@ -3,10 +3,12 @@ layout: post
 title:  "sqlc v1.18.0 released"
 date:   2023-04-27 13:10:42 -0700
 categories: posts
+tags: [release notes]
+excerpt: >
+  Bringing PostgreSQL support to Windows via remote code generation.
 ---
 
 ## Version [1.18.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.18.0)
-
 
 ### Remote code generation
 
@@ -172,5 +174,5 @@ generated method will use a argument struct.
 
 ### Changelog
 
-Full list of changes [here](https://docs.sqlc.dev/en/stable/reference/changelog.html#changes).
+Full list of changes [here](https://docs.sqlc.dev/en/v1.18.0/reference/changelog.html#changes).
 
