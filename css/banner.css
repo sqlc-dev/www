@@ -1,0 +1,9 @@
+#banner {
+  padding: 10px;
+}
+
+#banner > div > a {
+  text-decoration: underline;
+}
+
+
