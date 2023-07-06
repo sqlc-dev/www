@@ -4,13 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: "Compile SQL to type-safe code" }} | sqlc.dev</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <meta property="og:title" content="sqlc.dev" />
+    <link rel="canonical" href="https://sqlc.dev{{ page.url | default: '/'}}" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Compile SQL to type-safe code" />
-    <meta property="og:description" content="Compile SQL to type-safe code" />
-    <link rel="canonical" href="https://sqlc.dev/" />
-    <meta property="og:url" content="https://sqlc.dev/" />
+    <meta property="og:url" content="https://sqlc.dev{{ page.url | default: '/'}}" />
+    <meta property="og:title" content="{{ page.title | default: 'Compile SQL to type-safe code' }}" />
     <meta property="og:site_name" content="sqlc.dev" />
+    <meta property="og:description" content="{{ page.excerpt | default: 'SQL to type-safe code' }}" />
+    <meta property="description" content="{{ page.excerpt | default: 'SQL to type-safe code' }}" />
     <script type="application/ld+json">
       {"@type":"WebSite","url":"https://sqlc.dev/","headline":"sqlc.dev","name":"sqlc.dev","description":"Compile SQL to type-safe code","@context":"https://schema.org"}
     </script>
