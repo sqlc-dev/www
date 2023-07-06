@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "sqlc v1.19.0 released"
-date:   2023-07-06 13:10:42 -0700
+date:   2023-07-06 10:10:42 -0700
 categories: posts
 tags: [release notes]
 excerpt: >
