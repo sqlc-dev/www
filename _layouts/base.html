@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: "Compile SQL to type-safe code" }} | sqlc.dev</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
@@ -50,5 +51,6 @@
         </nav>
       </div>
       {{ content }}
+      <footer class="text-center text-gray-500 mt-6 mb-6">© Copyright {{ "today" | date: "%Y" }} Riza, Inc.</footer>
     </body>
   </html>
