@@ -99,7 +99,7 @@ package.
 ### Suggested CI/CD setup
 
 With the addition of `sqlc diff` and `sqlc vet`, we encourage users to run sqlc
-in your CI/CD pipelines. See our [suggested CI/CD setup](https://docs.sqlc.dev/en/v1.19.0/howto/ci-cd.md) for
+in your CI/CD pipelines. See our [suggested CI/CD setup](https://docs.sqlc.dev/en/v1.19.0/howto/ci-cd.html) for
 more information.
 
 ### Simplified plugin development
