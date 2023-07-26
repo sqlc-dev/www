@@ -6,7 +6,7 @@ categories: posts
 tags: [release notes]
 ---
 
-## Version [1.12.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.12.0)
+## Version [1.12.0](https://github.com/sqlc-dev/sqlc/releases/tag/v1.12.0)
 
 ### Bug
 

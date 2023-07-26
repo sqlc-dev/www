@@ -22,12 +22,12 @@ A new `:execresult` query command has been added. The generated methods will ret
 ### Core
 
 - Post the compiler to the new, database-agnostic SQL AST
-- Add support for dbmate migrations ([#511](https://github.com/kyleconroy/sqlc/pull/511))
-- Apply rename rules to enum constants ([#523](https://github.com/kyleconroy/sqlc/pull/523))
-- Add the :execresult query annotation ([#542](https://github.com/kyleconroy/sqlc/pull/542))
+- Add support for dbmate migrations ([#511](https://github.com/sqlc-dev/sqlc/pull/511))
+- Apply rename rules to enum constants ([#523](https://github.com/sqlc-dev/sqlc/pull/523))
+- Add the :execresult query annotation ([#542](https://github.com/sqlc-dev/sqlc/pull/542))
 
 ### PostgreSQL
 
-- Support columns from subselect statements ([#489](https://github.com/kyleconroy/sqlc/pull/489))
-- Temporary fix for typecast function parameters ([#530](https://github.com/kyleconroy/sqlc/pull/530))
-- Support functions with table parameters ([#541](https://github.com/kyleconroy/sqlc/pull/541))
+- Support columns from subselect statements ([#489](https://github.com/sqlc-dev/sqlc/pull/489))
+- Temporary fix for typecast function parameters ([#530](https://github.com/sqlc-dev/sqlc/pull/530))
+- Support functions with table parameters ([#541](https://github.com/sqlc-dev/sqlc/pull/541))
