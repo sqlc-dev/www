@@ -14,10 +14,10 @@ adapt. Please open an issue if your code is now broken. If you were using the
 ## Changelog
 
 ### Core
-* Add option to return emit `db` tags for struct fields ([#656](https://github.com/kyleconroy/sqlc/pull/656))
-* Add support for variadic stored procedures and functions ([#798](https://github.com/kyleconroy/sqlc/pull/798))
-* Fix issue installing sqlc via `go get` ([#744](https://github.com/kyleconroy/sqlc/pull/744))
-* Add support for nontrivial import paths for overrides ([#785](https://github.com/kyleconroy/sqlc/issues/785))
+* Add option to return emit `db` tags for struct fields ([#656](https://github.com/sqlc-dev/sqlc/pull/656))
+* Add support for variadic stored procedures and functions ([#798](https://github.com/sqlc-dev/sqlc/pull/798))
+* Fix issue installing sqlc via `go get` ([#744](https://github.com/sqlc-dev/sqlc/pull/744))
+* Add support for nontrivial import paths for overrides ([#785](https://github.com/sqlc-dev/sqlc/issues/785))
 
 ### Go
 * You can now specify the `go_type` import path of an override using an object instead of a string. 
@@ -32,5 +32,5 @@ overrides:
 ```
 
 ### MySQL
-* Add function definitions for all built-in MySQL functions ([#796](https://github.com/kyleconroy/sqlc/pull/796))
-* Upgrade to the latest version of pingcap/parser ([#744](https://github.com/kyleconroy/sqlc/pull/744))
+* Add function definitions for all built-in MySQL functions ([#796](https://github.com/sqlc-dev/sqlc/pull/796))
+* Upgrade to the latest version of pingcap/parser ([#744](https://github.com/sqlc-dev/sqlc/pull/744))

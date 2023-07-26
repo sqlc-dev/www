@@ -9,7 +9,7 @@ excerpt: >
   filtering out unused database structs.
 ---
 
-## Version [1.19.0](https://github.com/kyleconroy/sqlc/releases/tag/v1.19.0)
+## Version [1.19.0](https://github.com/sqlc-dev/sqlc/releases/tag/v1.19.0)
 
 ### sqlc vet
 
@@ -84,7 +84,7 @@ sql:
 ```
 
 To see this in action, check out the [authors
-example](https://github.com/kyleconroy/sqlc/blob/main/examples/authors/sqlc.yaml).
+example](https://github.com/sqlc-dev/sqlc/blob/main/examples/authors/sqlc.yaml).
 
 Please note that `sqlc` does not manage or migrate your database. Use your
 migration tool of choice to create the necessary database tables and objects

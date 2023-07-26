@@ -30,7 +30,7 @@ how to make `sqlc vet` more useful please [let us know][4]!
 
 We also created a new GitHub organization ([sqlc-dev][6]) to house existing and
 future work. We've already migrated most sqlc-related repositories, but
-we're waiting to move the [kyleconroy/sqlc][7] repo. The plan is to migrate it
+we're waiting to move the [sqlc-dev/sqlc][7] repo. The plan is to migrate it
 in the next week or two. We hope this doesn't cause any disruption but some
 discomfort during the transition is possible. If you've moved or renamed a Go
 project on GitHub before, we would definitely appreciate your tips on how to
@@ -61,6 +61,6 @@ Kyle and Andrew
 [4]: mailto:hello@sqlc.dev
 [5]: https://discord.gg/EcXzGe5SEs
 [6]: https://github.com/sqlc-dev
-[7]: https://github.com/kyleconroy/sqlc
+[7]: https://github.com/sqlc-dev/sqlc
 [8]: https://docs.sqlc.dev/en/v1.19.0/reference/config.html#database
 [9]: https://docs.sqlc.dev/en/stable/howto/vet.html
