@@ -158,7 +158,7 @@ func (q *Queries) SelectColumnCast(ctx context.Context) ([]int64, error) {
 
 ### SQLite improvements
 
-AA slew of fixes landed for our SQLite implementation, bringing it closer to parity with MySQL and PostgreSQL. We want to thank [@orisano](https://github.com/orisano) for their continued dedication to improving `sqlc`'s SQLite support.
+A slew of fixes landed for our SQLite implementation, bringing it closer to parity with MySQL and PostgreSQL. We want to thank [@orisano](https://github.com/orisano) for their continued dedication to improving SQLite support in `sqlc`.
 
 ### Changelog
 
