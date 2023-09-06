@@ -9,7 +9,13 @@ excerpt: >
   plugin access to environment variables, and SQLite engine improvements.
 ---
 
-## Version [1.21.0](https://github.com/sqlc-dev/sqlc/releases/tag/v1.21.0)
+We’ve just released sqlc version 1.21.0 which includes many bug fixes and a few new features, and coincidentally happens to be the first sqlc release built with Go 1.21. Read below for some highlights, or head straight to the [sqlc changelog](https://docs.sqlc.dev/en/v1.21.0/reference/changelog.html).
+
+We’ll be at GopherCon 2023 in San Diego from September 24th through 26th. If you’ll be there too and want to say hi we’d love to chat with you! Please get in touch and let us know.
+
+We’re about to reach 9000 GitHub stars, so thanks to all of you who’ve supported the sqlc project thus far and please continue to tell your friends and colleagues about the work we’re doing.
+
+Here are some highlights from the just-released [sqlc 1.21.0](https://github.com/sqlc-dev/sqlc/releases/tag/v1.21.0):
 
 ### MySQL engine improvements
 
@@ -52,9 +58,6 @@ plugins:
     sha256: 138220eae508d4b65a5a8cea555edd155eb2290daf576b7a8b96949acfeb3790
 ```
 
-A variable named `SQLC_VERSION` is always included in the plugin's
-environment, set to the version of the `sqlc` executable invoking it.
-
 ### Changelog
 
-Full list of changes [here](https://docs.sqlc.dev/en/v1.21.0/reference/changelog.html#changes).
+The full list of changes is in the [sqlc changelog](https://docs.sqlc.dev/en/v1.21.0/reference/changelog.html#changes).
