@@ -6,4 +6,8 @@
   text-decoration: underline;
 }
 
+img.logo {
+  max-height: 4rem;
+}
+
 
