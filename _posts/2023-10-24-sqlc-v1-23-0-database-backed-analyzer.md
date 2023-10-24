@@ -29,8 +29,6 @@ SELECT
 FROM activities;
 ```
 
-Now generates 
-
 The new database-backed analysis engine supports PostgreSQL today, with [MySQL](https://github.com/sqlc-dev/sqlc/issues/2902) and [SQLite](https://github.com/sqlc-dev/sqlc/issues/2903) support planned.
 
 You will need to add a [database section](https://docs.sqlc.dev/en/latest/reference/config.html#database) to your sqlc configuration file to opt in. The easiest way to do that is with [sqlc Cloud’s managed databases](https://docs.sqlc.dev/en/stable/howto/managed-databases.html), but you can also point sqlc at any accessible database as long as you have a valid connection string and the database’s schema is up-to-date.
