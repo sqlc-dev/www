@@ -4,7 +4,9 @@ layout: base
 <div class="relative py-16 bg-white overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto mb-6">
-      {% unless page.tags == empty %}<p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">{{ page.tags[0] }}</p>{% endunless %}
+      <p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+        {% if page.tags %}{{ page.tags[0] }} &mdash; {% endif %}{{ page.date | date: "%B %-d, %Y" }}
+      </p>
       <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">{{ page.title }}</h1>
     </div>
     <div class="prose prose-lg text-gray-500 mx-auto">
