@@ -9,7 +9,7 @@ excerpt: >
   plugin access to environment variables, and SQLite engine improvements.
 ---
 
-We’ve just released sqlc version 1.21.0 which includes many bug fixes and a few new features, and coincidentally happens to be the first sqlc release built with Go 1.21. Read below for some highlights, or head straight to the [sqlc changelog](https://docs.sqlc.dev/en/v1.21.0/reference/changelog.html).
+We’ve just released sqlc version 1.21.0 which includes many bug fixes and a few new features, and coincidentally happens to be the first sqlc release built with Go 1.21. Read below for some highlights, or head straight to the [sqlc changelog](https://docs.sqlc.dev/en/latest/reference/changelog.html#v1-21-0).
 
 We’ll be at GopherCon 2023 in San Diego from September 24th through 26th. If you’ll be there too and want to say hi we’d love to chat with you! Please get in touch and let us know.
 
@@ -60,4 +60,4 @@ plugins:
 
 ### Changelog
 
-The full list of changes is in the [sqlc changelog](https://docs.sqlc.dev/en/v1.21.0/reference/changelog.html#changes).
+The full list of changes is in the [sqlc changelog](https://docs.sqlc.dev/en/latest/reference/changelog.html#v1-21-0).

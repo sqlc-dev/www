@@ -162,4 +162,4 @@ A slew of fixes landed for our SQLite implementation, bringing it closer to pari
 
 ### Changelog
 
-Full list of changes [here](https://docs.sqlc.dev/en/v1.20.0/reference/changelog.html#changes).
+Full list of changes [here](https://docs.sqlc.dev/en/latest/reference/changelog.html#v1-20-0).
