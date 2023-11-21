@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Verifying database migrations in v1.24.0"
+title:  "Verifying database schema changes in v1.24.0"
 date:   2023-10-24 15:00:00 -0700
 categories: posts
 tags: [release notes]
 excerpt: >
-  sqlc can now catch backwards-incompatible database migrations.
+  sqlc can now catch backwards-incompatible schema changes before they cause a production outage.
 ---
 
-`sqlc` is a command line tool that generates type-safe code from SQL. Today we released [sqlc v1.24.0](https://docs.sqlc.dev/en/latest/reference/changelog.html#v1-24-0), so let’s take a look at what’s new.
+`sqlc` is a command line tool that generates type-safe code from SQL. Today we released [sqlc v1.24.0](https://docs.sqlc.dev/en/latest/reference/changelog.html#v1-24-0) which includes a new feature to verify the correctness of database schema changes.
 
 ## Catch unsafe database migrations with `sqlc verify`
 
