@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Verifying database schema changes in v1.24.0"
-date:   2023-10-24 15:00:00 -0700
+date:   2023-11-21 15:00:00 -0700
 categories: posts
 tags: [release notes]
 excerpt: >
