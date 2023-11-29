@@ -3,6 +3,7 @@ layout: post
 title:  "Verifying database schema changes in v1.24.0"
 date:   2023-11-21 15:00:00 -0700
 categories: posts
+image: img/sqlc-verify-database-changes.png
 tags: [release notes]
 excerpt: >
   sqlc can now catch backwards-incompatible schema changes before they cause a production outage.
