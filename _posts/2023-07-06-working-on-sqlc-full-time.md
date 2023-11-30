@@ -4,7 +4,7 @@ title:  "Working on sqlc full-time"
 date:   2023-07-06 10:10:42 -0700
 categories: posts
 tags: [announcement]
-excerpt: > 
+description: > 
   After developing sqlc in our spare time since 2020, we're excited to share that we're
   working on it full-time.
 ---
