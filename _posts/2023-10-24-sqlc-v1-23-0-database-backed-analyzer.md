@@ -4,7 +4,7 @@ title:  "Database-backed query analysis in v1.23.0"
 date:   2023-10-24 15:00:00 -0700
 categories: posts
 tags: [release notes]
-excerpt: >
+description: >
   sqlc can now use a database connection for improved query analysis.
 ---
 

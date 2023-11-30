@@ -4,7 +4,7 @@ title:  "sqlc v1.18.0 released"
 date:   2023-04-27 13:10:42 -0700
 categories: posts
 tags: [release notes]
-excerpt: >
+description: >
   Bringing PostgreSQL support to Windows via remote code generation.
 ---
 

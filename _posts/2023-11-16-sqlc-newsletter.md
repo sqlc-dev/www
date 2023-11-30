@@ -4,7 +4,7 @@ title:  "sqlc news, November 2023"
 date:   2023-11-16 11:00:00 -0700
 categories: posts
 tags: [news]
-excerpt: >
+description: >
   We have an alpha TypeScript plugin available for testing.
 ---
 

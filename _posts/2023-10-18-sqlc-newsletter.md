@@ -4,7 +4,7 @@ title:  "sqlc news, October 2023"
 date:   2023-10-18 12:00:00 -0700
 categories: posts
 tags: [news]
-excerpt: >
+description: >
   We’ve opened up the sqlc Cloud dashboard for early access.
 ---
 

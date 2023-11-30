@@ -4,7 +4,7 @@ title:  "sqlc v1.19.0 released"
 date:   2023-07-06 10:10:42 -0700
 categories: posts
 tags: [release notes]
-excerpt: >
+description: >
   New features include linting support via sqlc vet, database connectivity and
   filtering out unused database structs.
 ---

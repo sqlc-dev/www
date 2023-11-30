@@ -4,7 +4,7 @@ title:  "sqlc v1.21.0 released"
 date:   2023-09-06 12:00:00 -0700
 categories: posts
 tags: [release notes]
-excerpt: >
+description: >
   New features include MySQL CALL and IS [NOT] NULL support,
   plugin access to environment variables, and SQLite engine improvements.
 ---

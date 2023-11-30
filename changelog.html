@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div class="text-center mb-8">
+        <h1 class="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+          Changelog
+        </h1>
+        <h2 class="text-2xl tracking-tight text-gray-900 sm:text-6xl">
+          New updates and improvements to sqlc.
+        </h2>
+      </div>
+        {% for post in site.posts limit:10 %}
+        {% if post.tags contains "changelog" or post.tags contains "release notes" or post.tags contains "announcement" %}
+        <div class="pt-16 pb-20">
+          <hr/>
+        </div>
+          <div class="text-base font-bold text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+          <div class="prose max-w-prose mx-auto mb-6">
+           <a href="{{ post.url }}" class="block text-3xl">
+             <h2 class="font-extrabold">
+               {{ post.title }}
+             </h2>
+           </a>
+           </div>
+           <div class="prose text-gray-500 mx-auto">
+             {{ post.content }}
+           </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+  

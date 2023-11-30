@@ -5,7 +5,7 @@ date:   2023-11-21 15:00:00 -0700
 categories: posts
 image: img/sqlc-verify-database-changes.png
 tags: [release notes]
-excerpt: >
+description: >
   sqlc can now catch backwards-incompatible schema changes before they cause a production outage.
 ---
 

@@ -4,7 +4,7 @@ title:  "sqlc v1.20.0 released"
 date:   2023-07-31 9:00:00 -0700
 categories: posts
 tags: [release notes]
-excerpt: >
+description: >
   New features include EXPLAIN output in sqlc vet, opting-out of lint rules,
   MySQL bulk insert and CAST support.
 ---
