@@ -3,6 +3,7 @@ layout: post
 title:  "Database-backed query analysis in v1.23.0"
 date:   2023-10-24 15:00:00 -0700
 categories: posts
+image: img/sqlc-v1-23-0-database-backed-analyzer.png
 tags: [release notes]
 excerpt: >
   sqlc can now use a database connection for improved query analysis.

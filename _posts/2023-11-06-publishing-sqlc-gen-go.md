@@ -3,6 +3,7 @@ layout: post
 title:  "Announcing sqlc-gen-go"
 date:   2023-11-06 11:00:00 -0700
 categories: posts
+image: img/publishing-sqlc-gen-go.png
 tags: [announcement]
 excerpt: >
   We’ve extracted the Go codegen package from sqlc and are publishing it as a plugin.
