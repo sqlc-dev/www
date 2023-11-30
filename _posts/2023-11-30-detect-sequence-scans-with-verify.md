@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prevent full table scans in production"
-date:   2023-11-16 11:00:00 -0700
+date:   2023-11-16 08:00:00 -0700
 image: img/prevent-full-table-scan.png
 categories: posts
 tags: [news]
