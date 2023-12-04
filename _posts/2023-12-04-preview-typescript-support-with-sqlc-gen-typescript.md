@@ -111,7 +111,7 @@ We want to hear from you! Please create an issue on GitHub, post a message on Di
 
 ## How it's built
 
-Unlike our previous plugins, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) is written in TypeScript. The reason is simple: make sure that TypeScript developers would be comfortable jumping into the code, understanding how it works, and contributing back. We also wanted to take advantage of the TypeScript compiler itself, which offers APIs for generating code from an abstract syntax tree (AST). 
+Unlike our previous plugins which are all written in Go, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) is written in TypeScript. The reason is simple: ensure that TypeScript developers are comfortable jumping into the code, understanding how it works, and contributing back. We also wanted to take advantage of the TypeScript compiler itself, which offers APIs for generating code from an abstract syntax tree (AST). 
 
 Thankfully, [this July](https://bytecodealliance.org/articles/javy-hosted-project) Shopify and the Bytecode Alliance annoucced Javy, a JavaScript-to-WebAssembly toolchain.
 
