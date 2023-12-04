@@ -9,7 +9,7 @@ description: >
   Announcing the first release of sqlc-gen-typescript. Generate type-safe TypeScript from SQL.
 ---
 
-I'm so excited to announce the preview release of our TypeScript plugin, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript). TypeScript now joins [Go](https://github.com/sqlc-dev/sqlc-gen-go), [Python](https://github.com/sqlc-dev/sqlc-gen-python) and [Kotlin](https://github.com/sqlc-dev/sqlc-gen-kotlin) as supported languages. Let's dive in.
+We're so excited to announce the preview release of our TypeScript plugin, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript). TypeScript now joins [Go](https://github.com/sqlc-dev/sqlc-gen-go), [Python](https://github.com/sqlc-dev/sqlc-gen-python) and [Kotlin](https://github.com/sqlc-dev/sqlc-gen-kotlin) as supported languages. Let's dive in.
 
 ## Quick tour
 
