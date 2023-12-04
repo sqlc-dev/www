@@ -24,6 +24,11 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+
 plugins:
   - jekyll-feed
 
