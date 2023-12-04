@@ -13,7 +13,7 @@ We're so excited to announce the preview release of our TypeScript plugin, [sqlc
 
 ## Quick tour
 
-The [getting started guide](https://github.com/sqlc-dev/sqlc-gen-typescript#getting-started) has a complete [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) walkthrough, but I wanted to give you a peek at using the generated code. 
+The [getting started guide](https://github.com/sqlc-dev/sqlc-gen-typescript#getting-started) has a complete [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) walkthrough, but we wanted to give you a quick peek at using the generated code. 
 
 We'll start with the SQL. We have one table, `authors`, and a few queries.
 
