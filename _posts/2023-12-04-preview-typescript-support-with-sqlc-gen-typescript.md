@@ -96,18 +96,13 @@ We've learned a ton from building out our Go, Python and Kotlin support over the
 
 We generate individual functions, not methods on a class. This structure allows for easier composability.
 
-We also take advantage of TypeScript's more advanced type-system. Each function accepts and returns interfaces, meaning that we don't have to have a single model definition for our methods.
+We also take advantage of TypeScript's more advanced type-system. Each function accepts and returns interfaces, meaning that we don't have to have a single model definition for our methods. This choice makes it easy to use existing classes or types as long as they have the correct field definitions.
 
 ## Limitations
 
 We're launching with support for PostgreSQL via [pg](https://www.npmjs.com/package/pg) or [postgres](https://www.npmjs.com/package/postgres) and MySQL via [mysql2](https://www.npmjs.com/package/mysql2).
 
 A reminder that this release is the **start** of our TypeScript support. We opted to release it early to gather feedback before the 1.0.0 release. Expect breaking changes, incomplete feature support, and bugs. So many bugs.
-
-## Feedback
-
-We want to hear from you! Please create an issue on GitHub, post a message on Discord, or send us an email at `hello@sqlc.dev`.
-
 
 ## How it's built
 
@@ -118,3 +113,7 @@ Because sqlc prefers to interact with WASM plugins, we needed a way to run JavaS
 To take advantage of Javy we have to do a few things. First we transpile and bundle our TypeScript into a single JavaScript file using [esbuild](https://esbuild.github.io/). We then take that file and run it through Javy, which outputs a .wasm file. Not too shabby!
 
 One downside to this approach is that the WASM blob is big. As of this writing, the 0.1.0 release of sqlc-gen-typescript clocks in at 69MB. Ouch! We're confident that we can dramatically reduce the size by splitting out the parts of the TypeScript compiler that we use from the rest of the TypeScript package, but that optimization will have to wait for a future release.
+
+## Feedback wanted
+
+This preview release is by no means complete. We're looking to gather feedback from the community to shape a future 1.0 release. Please create an issue on [GitHub](https://github.com/sqlc-dev/sqlc-gen-typescript), post a message on [Discord](https://discord.gg/EcXzGe5SEs), or send us an email at `hello@sqlc.dev`.
