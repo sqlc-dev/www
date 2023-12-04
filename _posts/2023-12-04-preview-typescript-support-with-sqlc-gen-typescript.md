@@ -109,7 +109,7 @@ A reminder that this release is the **start** of our TypeScript support. We opte
 We want to hear from you! Please create an issue on GitHub, post a message on Discord, or send us an email at `hello@sqlc.dev`.
 
 
-## How its built
+## How it's built
 
 Unlike our previous plugins, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) is written in TypeScript. The reason is simple: make sure that TypeScript developers would be comfortable jumping into the code, understanding how it works, and contributing back. We also wanted to take advantage of the TypeScript compiler itself, which offers APIs for generating code from an abstract syntax tree (AST). 
 
