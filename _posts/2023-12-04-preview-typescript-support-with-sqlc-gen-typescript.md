@@ -113,7 +113,7 @@ We want to hear from you! Please create an issue on GitHub, post a message on Di
 
 Unlike our previous plugins which are all written in Go, [sqlc-gen-typescript](https://github.com/sqlc-dev/sqlc-gen-typescript) is written in TypeScript. The reason is simple: ensure that TypeScript developers are comfortable jumping into the code, understanding how it works, and contributing back. We also wanted to take advantage of the TypeScript compiler itself, which offers APIs for generating code from an abstract syntax tree (AST). 
 
-Thankfully, [this July](https://bytecodealliance.org/articles/javy-hosted-project) Shopify and the Bytecode Alliance annoucced Javy, a JavaScript-to-WebAssembly toolchain.
+Because sqlc prefers to interact with WASM plugins, we needed a way to run JavaScript in a WASM context. Thankfully, this July [Shopify and the Bytecode Alliance announced Javy](https://bytecodealliance.org/articles/javy-hosted-project), a JavaScript-to-WebAssembly toolchain.
 
 To take advatange of Javy, we have to do a few things. First, we transpile and bundle our TypeScript into a single JavaScript file using [esbuild]. We take that file run it through Javy, which outputs a .wasm file. Not to shabby!
 
