@@ -117,4 +117,4 @@ Because sqlc prefers to interact with WASM plugins, we needed a way to run JavaS
 
 To take advantage of Javy we have to do a few things. First we transpile and bundle our TypeScript into a single JavaScript file using [esbuild](https://esbuild.github.io/). We then take that file and run it through Javy, which outputs a .wasm file. Not to shabby!
 
-The one downside to this approach is that the WASM file is big. As of this writing, the 0.1.0 release of sqlc-gen-typescript clocks in at 69MB. Ouch! We're confident that we can drastically improve this in the future by splitting out the parts of the TypeScript compiler that we use from the rest of the TypeScript package.
+One downside to this approach is that the WASM blob is big. As of this writing, the 0.1.0 release of sqlc-gen-typescript clocks in at 69MB. Ouch! We're confident that we can dramatically reduce the size by splitting out the parts of the TypeScript compiler that we use from the rest of the TypeScript package, but that optimization will have to wait for a future release.
