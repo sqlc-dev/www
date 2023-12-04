@@ -94,7 +94,7 @@ async function main() {
 
 We've learned a ton from building out our Go, Python and Kotlin support over the last four years. Our TypeScript codegen output incorporates much of that learning.
 
-We generate individual functions, not methods on a class. This structure allows for easier compostability.
+We generate individual functions, not methods on a class. This structure allows for easier composability.
 
 We also take advantage of TypeScript's more advanced type-system. Each function accepts and returns interfaces, meaning that we don't have to have a single model definition for our methods.
 
