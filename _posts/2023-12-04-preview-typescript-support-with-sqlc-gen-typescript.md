@@ -92,7 +92,7 @@ async function main() {
 
 ## Design considerations
 
-We've learned a ton building out our Go, Python and Kotlin support over the last four years. Our TypeScript code encodes much of that learning.
+We've learned a ton from building out our Go, Python and Kotlin support over the last four years. Our TypeScript codegen output incorporates much of that learning.
 
 We generate individual functions, not methods on a class. This structure allows for easier compostability.
 
