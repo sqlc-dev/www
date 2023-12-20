@@ -2111,6 +2111,12 @@ video {
   margin-left: calc(2.5rem * calc(1 - var(--space-x-reverse)));
 }
 
+.space-x-5 > :not(template) ~ :not(template) {
+  --space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--space-x-reverse)));
+}
+
 .bg-white {
   --bg-opacity: 1;
   background-color: #ffffff;
@@ -2550,6 +2556,11 @@ video {
   gap: 0.125rem;
 }
 
+.gap-2 {
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -2568,6 +2579,10 @@ video {
 
 .duration-150 {
   transition-duration: 150ms;
+}
+
+.hide {
+  display: none;
 }
 
 @-webkit-keyframes spin {
@@ -2661,6 +2676,7 @@ video {
             animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
+
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -3980,6 +3996,10 @@ video {
 @media (min-width: 768px) {
   .md\:container {
     width: 100%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   @media (min-width: 640px) {
