@@ -6,7 +6,8 @@ layout: base
     <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
       <div class="text-center">
         <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-          Compile SQL to type-safe code
+          Compile SQL to type-safe code;</br>
+          catch failures before they happen.
         </h2>
         <div class="prose prose-lg mt-3 max-w-md mx-auto text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         </div>
@@ -26,10 +27,10 @@ layout: base
     </main>
   </div>
 </div>
-<div class="relative py-16 bg-white overflow-hidden">
-  <div class="relative px-4 sm:px-6 lg:px-8">
+<div class="flex px-8 py-16 bg-white overflow-hidden justify-center">
+  <div class="relative px-8 py-6">
     <div class="text-lg max-w-prose mx-auto mb-6">
-      <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">How it Works</h1>
+      <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">How it works</h1>
       <p class="text-xl text-gray-500 leading-8">
         sqlc generates fully type-safe idiomatic code from SQL.
       </p>
@@ -42,6 +43,18 @@ layout: base
       </ol>
       <p>
         Seriously, it's that easy. You don't have to write any boilerplate SQL querying code ever again. See the current list of <a href="https://docs.sqlc.dev/en/stable/reference/language-support.html">supported programming languages and databases</a>.
+      </p>
+    </div>
+  </div>
+  <div class="relative px-8 py-6 rounded-lg shadow-lg bg-gray-50">
+    <div class="text-lg max-w-prose mx-auto mb-6">
+      <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">✨ Verify schema changes ✨</h1>
+    </div>
+    <div class="prose prose-lg text-gray-500 mx-auto">
+      <p>Schema updates and poorly-written queries often bring down production databases. That’s bad.</p>
+      <p>When a schema change is proposed, existing queries and code running in production might fail when the schema change is applied. Enter <code>sqlc verify</code>, which analyzes existing queries against new schema changes and errors if there are any issues.</p>
+      <p>
+        See it in action <a href="/posts/2023/11/21/sqlc-v1-24-0-verify-schema-changes/">here</a> or <a href="https://calendly.com/d/4dw-j7d-hwc/30-minute-sqlc-discussion">talk to an engineer</a>.
       </p>
     </div>
   </div>
